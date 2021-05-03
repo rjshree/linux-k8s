@@ -1,0 +1,8 @@
+SCP from Remote(Linux) to Windows
+=================================
+scp  -r username@10.184.97.52:/home/centos/installer.iso dest-folder
+example: scp  -r centos@10.184.97.52:/home/centos/installer-1.2.5+20201027214330.iso iso
+
+Kubectl Set namespace to current context
+========================================
+kubectl config set-context --current  --namespace=my-namespace
