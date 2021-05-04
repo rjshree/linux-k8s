@@ -11,3 +11,7 @@ sudo umount <dir>
 Kubectl Set namespace to current context
 ========================================
 kubectl config set-context --current  --namespace=my-namespace
+
+Kubectl to set certificate as secret:
+=====================================
+kubectl create secret generic ca-cert --from-file=ca-certificate.crt
